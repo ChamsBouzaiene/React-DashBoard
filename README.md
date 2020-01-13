@@ -4,7 +4,6 @@ this is a react dashborad example built with no library other then react and no 
 
 ## TODOs 🤯:
 
-- Impliment the basic architecture
 - Build the main app container (Header , sidebar , Main Layout)
 - Check for responsivnes
 - Build Header Components
@@ -18,3 +17,5 @@ this is a react dashborad example built with no library other then react and no 
 - Update the Readme to showcase what i did
 
 ## Done 😊:
+
+- Impliment the basic architecture
