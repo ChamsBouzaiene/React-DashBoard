@@ -1,9 +1,14 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Dashboard from "./main";
 
 function App() {
-  return <div className="App">Hello Nature</div>;
+  return (
+    <div className="App">
+      <Dashboard />
+    </div>
+  );
 }
 
 export default App;
