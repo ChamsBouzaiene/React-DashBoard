@@ -9,9 +9,9 @@ this is a react dashborad example built with no library other then react and no 
 - Check for responsivnes
 - Build Header Components
 - Build SideBar Components
-- Build Diffrent Layout OverView and Members mockups
+- Build Diffrent Layout OverView and DataList mockups
 - Build OverView Component
-- Build Members Component
+- Build DataList Component
 - Check for responsivnes another time
 - enhance the ui => Css => Design
 - Optimise the app (Speed , Memo , Keys , errors , logs , sepreate constants , clean up , comments)
