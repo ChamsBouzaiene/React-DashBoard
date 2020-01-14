@@ -1,4 +1,17 @@
 .sidebar {
   background-color: #665df8;
   grid-area: sidebar;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10%;
+  display: flex;
+  color: white;
+}
+
+.sidebar-links {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 50%;
 }

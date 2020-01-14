@@ -1,7 +1,7 @@
 import React from "react";
 import { LogoCDNLink } from "../../data/links";
 
-export default function Logo({ classNames, width, height }) {
+export default function NavigationLabel({ classNames, width, height }) {
   return (
     <div className={classNames}>
       <img
