@@ -2,14 +2,15 @@
 import React from "react";
 import Header from "../common/components/Header";
 import SideBar from "../common/components/SideBar";
-import MainLayout from "./MainLayout";
+import MainBlock from "./MainBlock";
+import "./style.css";
 
 export default function Dashboard() {
   return (
-    <div>
+    <div className="dashboard">
       <Header />
       <SideBar />
-      <MainLayout />
+      <MainBlock />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./style.css";
 export default function SideBar() {
-  return <div>i am a side Bar</div>;
+  return <div className="sidebar">i am a side Bar</div>;
 }
