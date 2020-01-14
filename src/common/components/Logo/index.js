@@ -1,5 +1,14 @@
 import React from "react";
+import { LogoCDNLink } from "../../data/links";
 
-export default function Logo() {
-  return <div>Logo Inc.</div>;
+export default function Logo({ classNames, width, height }) {
+  return (
+    <div className={classNames}>
+      <img
+        style={{ width: width, height: height }}
+        src={LogoCDNLink}
+        alt="company logo"
+      />
+    </div>
+  );
 }

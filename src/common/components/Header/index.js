@@ -10,14 +10,22 @@ export default function Header() {
   return (
     <div className="header">
       <div className="header-logo">
-        <Logo />
+        <Logo
+          classNames={"header-logo-img-container"}
+          widh="80%"
+          height="80%"
+        />
       </div>
       <div className="header-searchbar">
         <SearchBar />
       </div>
       <div className="header-menu">
         <NotificationElement />
-        <Avatar />
+        <Avatar
+          classNames={"header-logo-img-container"}
+          widh="80%"
+          height="80%"
+        />
         <Typographie />
       </div>
     </div>
