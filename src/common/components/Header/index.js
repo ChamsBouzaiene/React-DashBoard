@@ -31,11 +31,7 @@ export default function Header() {
           alt={"messages icon"}
           counter={5}
         />
-        <Avatar
-          classNames={"header-logo-img-container"}
-          widh="80%"
-          height="80%"
-        />
+        <Avatar img={IconsCDNLinks.avatarImg} width="25%" height="100%" />
         <Typographie />
       </div>
     </div>
