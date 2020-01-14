@@ -9,11 +9,17 @@ import "./style.css";
 export default function Header() {
   return (
     <div className="header">
-      <Logo />
-      <SearchBar />
-      <NotificationElement />
-      <Avatar />
-      <Typographie />
+      <div className="header-logo">
+        <Logo />
+      </div>
+      <div className="header-searchbar">
+        <SearchBar />
+      </div>
+      <div className="header-menu">
+        <NotificationElement />
+        <Avatar />
+        <Typographie />
+      </div>
     </div>
   );
 }
