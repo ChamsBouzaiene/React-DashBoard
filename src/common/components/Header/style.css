@@ -1,4 +1,6 @@
 .header {
   background-color: rebeccapurple;
   grid-area: header;
+  display: flex;
+  justify-content: space-around;
 }
