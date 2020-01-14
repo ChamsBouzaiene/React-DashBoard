@@ -4,6 +4,7 @@ import SearchBar from "../SearchBar";
 import NotificationElement from "../NotificationElement";
 import Avatar from "../Avatar";
 import Typographie from "../Typographie";
+import { IconsCDNLinks } from "../../data/links";
 
 import "./style.css";
 export default function Header() {
@@ -17,10 +18,19 @@ export default function Header() {
         />
       </div>
       <div className="header-searchbar">
-        <SearchBar />
+        <SearchBar onChange={e => console.log(e.target.value)} />
       </div>
       <div className="header-menu">
-        <NotificationElement />
+        <NotificationElement
+          icon={IconsCDNLinks.messages}
+          alt={"messages icon"}
+          counter={5}
+        />
+        <NotificationElement
+          icon={IconsCDNLinks.bookMark}
+          alt={"messages icon"}
+          counter={5}
+        />
         <Avatar
           classNames={"header-logo-img-container"}
           widh="80%"
