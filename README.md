@@ -4,12 +4,12 @@ this is a react dashborad example built with no library other then react and no 
 
 ## TODOs 🤯:
 
-- Check for responsivnes
-- Build SideBar Components
+- Build Routing systems for sideBarLinks
 - Build Diffrent Layout OverView and DataList mockups
 - Build OverView Component
 - Build DataList Component
 - Check for responsivnes another time
+- Check for responsivnes
 - enhance the ui => Css => Design
 - Optimise the app (Speed , Memo , Keys , errors , logs , sepreate constants , clean up , comments)
 - Update the Readme to showcase what i did
@@ -19,3 +19,4 @@ this is a react dashborad example built with no library other then react and no 
 - Impliment the basic architecture
 - Build the main app container (Header , sidebar , Main Layout)
 - Build Header Components
+- Build SideBar Components
