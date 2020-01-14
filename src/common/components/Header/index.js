@@ -32,7 +32,7 @@ export default function Header() {
           counter={5}
         />
         <Avatar img={IconsCDNLinks.avatarImg} width="25%" height="100%" />
-        <Typographie />
+        <Typographie text={"Emanuele"} />
       </div>
     </div>
   );

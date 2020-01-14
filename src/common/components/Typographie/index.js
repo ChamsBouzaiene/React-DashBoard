@@ -1,5 +1,5 @@
 import React from "react";
-
-export default function Typographie() {
-  return <div>Title</div>;
+import "./style.css";
+export default function Typographie({ text }) {
+  return <span className="typographie">{text}</span>;
 }
