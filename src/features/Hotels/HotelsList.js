@@ -6,8 +6,6 @@ export default function HotelsList() {
       <HotelCard />
       <HotelCard />
       <HotelCard />
-      <HotelCard />
-      <HotelCard />
     </div>
   );
 }
