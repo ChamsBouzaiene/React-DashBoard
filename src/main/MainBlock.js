@@ -17,11 +17,11 @@ const Second = () => {
   );
 };
 
-export default function MainBlock({ path }) {
+export default function MainBlock() {
   return (
-    <Router path={path}>
-      <Route to="/main" component={<Main />} />
-      <Route to="/second" component={<Second />} />
+    <Router>
+      <Route to="/" component={<Main />} />
+      <Route to="/Hotels" component={<Second />} />
     </Router>
   );
 }

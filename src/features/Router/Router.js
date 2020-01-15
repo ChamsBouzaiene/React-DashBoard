@@ -18,7 +18,7 @@ function filterCurrentView(children, path) {
 }
 
 export default function Router({ children }) {
-  const path = useContext(RouterConsumer);
+  const { path } = useContext(RouterConsumer);
   console.log(path);
   return <>{filterCurrentView(children, path)}</>;
 }
