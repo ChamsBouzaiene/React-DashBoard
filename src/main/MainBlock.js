@@ -1,15 +1,27 @@
 import React from "react";
-import { Router } from "../features/Router";
+import { Router, Route } from "../features/Router";
+
+const Main = () => {
+  return (
+    <div className="mainblock" to="/main">
+      i am a main layout
+    </div>
+  );
+};
+
+const Second = () => {
+  return (
+    <div className="mainblock" to="/main">
+      i am a second layout
+    </div>
+  );
+};
 
 export default function MainBlock() {
   return (
     <Router path="/main">
-      <div className="mainblock" to="/main">
-        i am a main layout
-      </div>
-      <div className="mainblock" to="/second">
-        i am a second layout
-      </div>
+      <Route to="/main" component={<Main />} />
+      <Route to="/second" component={<Second />} />
     </Router>
   );
 }
