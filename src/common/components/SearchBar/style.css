@@ -6,6 +6,7 @@
 .searchbar-container > input {
   width: 60%;
   height: 70%;
+  cursor: pointer;
   border-radius: 25px;
   border: none;
   border: solid 1px rgb(177, 172, 172);
