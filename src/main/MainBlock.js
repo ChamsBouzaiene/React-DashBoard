@@ -1,7 +1,7 @@
 import React from "react";
 import { Router, Route } from "../features/Router";
 import Fligts from "../features/Flights";
-
+import Hotels from "../features/Hotels";
 const Main = () => {
   return <div className="mainblock">i am a main layout</div>;
 };
@@ -15,7 +15,7 @@ export default function MainBlock() {
     <div className="mainblock">
       <Router>
         <Route to="/" component={<Fligts />} />
-        <Route to="/Hotels" component={<Second />} />
+        <Route to="/Hotels" component={<Hotels />} />
       </Router>
     </div>
   );

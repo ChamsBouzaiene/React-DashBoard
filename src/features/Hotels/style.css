@@ -1,0 +1,25 @@
+.hotels {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  background-color: white;
+}
+
+.hotels-container {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.hotels-cmd {
+  border: solid;
+  width: 28%;
+}
+
+.hotels-table {
+  border: solid;
+  width: 70%;
+}
