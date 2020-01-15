@@ -129,6 +129,10 @@
   text-align: left;
 }
 
+.hotel-card-info-titles-right-position {
+  font-size: 0.7em;
+}
+
 .hotel-card-info-titles-right > span {
   font-weight: 600;
 }
@@ -140,7 +144,6 @@
 
 .position-distance {
   font-weight: 550;
-  font-size: 0.8em;
 }
 
 .hotel-card-info-titles-left {

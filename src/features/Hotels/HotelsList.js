@@ -1,11 +1,12 @@
 import React from "react";
 import HotelCard from "./HotelCard";
+import { hotelsData } from "../../common/data/dummyData";
 export default function HotelsList() {
   return (
     <div className="hotels-card-list">
-      <HotelCard />
-      <HotelCard />
-      <HotelCard />
+      {hotelsData.map((hotel, id) => (
+        <HotelCard {...hotel} key={id} />
+      ))}
     </div>
   );
 }

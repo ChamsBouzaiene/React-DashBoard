@@ -25,3 +25,27 @@ export const fligtsData = [
     date: "13 Aug - 19 Aug"
   }
 ];
+
+export const hotelsData = [
+  {
+    img: "https://vive-media-tpvbooking.netdna-ssl.com/63598/0.jpg",
+    name: "Four Seasons Hotel Moscow",
+    place: "Okhotny Ryad Moscow",
+    distance: " ( 500 m from center )",
+    price: "$ 640"
+  },
+  {
+    img: "https://vive-media-tpvbooking.netdna-ssl.com/63598/11.jpg",
+    name: "Hotel Comfort Class",
+    place: "Aeroport, Moscow",
+    distance: " ( 8 km from center )",
+    price: "$ 820"
+  },
+  {
+    img: "https://vive-media-tpvbooking.netdna-ssl.com/63598/10.jpg",
+    name: "Hotel Empire",
+    place: "Begovoy, Moscow",
+    distance: " ( 6 km from center )",
+    price: "$ 190"
+  }
+];
