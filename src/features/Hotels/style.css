@@ -22,4 +22,21 @@
 .hotels-table {
   border: solid;
   width: 70%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.hotel-toolbar {
+  border: solid;
+}
+
+.hotel-pagination-toolbar {
+  border: solid;
+}
+
+.hotels-card-list {
+  border: solid;
+  height: 80%;
 }

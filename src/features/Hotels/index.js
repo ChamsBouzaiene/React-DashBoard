@@ -1,5 +1,8 @@
 import React from "react";
 import "./style.css";
+import HotelsList from "./HotelsList";
+import HotelToolBar from "./HotelToolBar";
+import PaginationsToolTip from "./PaginationsToolTip";
 
 export default function Hotels() {
   return (
@@ -9,10 +12,9 @@ export default function Hotels() {
           <span>Best Value Offers to Europe!</span>
         </div>
         <div className="hotels-table">
-          <span>hotel 1</span>
-          <span>hotel 2</span>
-          <span>hotel 1</span>
-          <span>hotel 1</span>
+          <HotelToolBar />
+          <HotelsList />
+          <PaginationsToolTip />
         </div>
       </div>
     </div>
