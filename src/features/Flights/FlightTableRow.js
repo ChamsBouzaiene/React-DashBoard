@@ -1,17 +1,17 @@
 import React from "react";
 
-export default function FlightTableRow() {
+export default function FlightTableRow({ land, price, date }) {
   return (
     <div className="flights-table-row">
       <div className="col-title">
-        <span>Munich</span>
+        <span>{land}</span>
       </div>
       <div className="col-price">
         <span className="col-price-label">From </span>
-        <span>860 USD</span>
+        <span>{price} USD</span>
       </div>
       <div className="col-date">
-        <span>15 Aug - 22 Aug</span>
+        <span>{date}</span>
       </div>
       <div className="col-button">
         <span>Book now →</span>

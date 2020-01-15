@@ -1,5 +1,6 @@
 import React from "react";
 import FlightTableRow from "./FlightTableRow";
+import { fligtsData } from "../../common/data/dummyData";
 import "./style.css";
 export default function Flights() {
   return (
@@ -8,11 +9,9 @@ export default function Flights() {
         <span>Best Value Offers to Europe!</span>
       </div>
       <div className="flights-table">
-        <FlightTableRow />
-        <FlightTableRow />
-        <FlightTableRow />
-        <FlightTableRow />
-        <FlightTableRow />
+        {fligtsData.map((flightData, i) => {
+          return <FlightTableRow {...flightData} />;
+        })}
       </div>
     </div>
   );
