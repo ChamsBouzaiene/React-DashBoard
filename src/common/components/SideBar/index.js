@@ -6,7 +6,7 @@ export default function SideBar() {
   return (
     <div className="sidebar">
       <div className="sidebar-links">
-        <NavigationLink label={"Flightes"} to={"/"} />
+        <NavigationLink label={"Flights"} to={"/"} />
         <NavigationLink label={"Hotels"} to={"/Hotels"} />
         <NavigationLink label={"Renting"} to={"/Renting"} />
         <NavigationLink label={"Contact"} to={"/Contact_us"} />

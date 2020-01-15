@@ -8,24 +8,47 @@
 
 .flights-title {
   display: flex;
-  padding-left: 15%;
+  padding-left: 5%;
   font-size: 27px;
   font-weight: bold;
-  color: #490786;
+  color: #262d58;
   font-family: sans-serif;
-  padding-top: 10%;
+  padding-top: 8%;
 }
 
 .flights-table {
   display: flex;
   flex-direction: column;
-  padding-left: 15%;
+  padding-left: 5%;
   justify-content: space-between;
+  height: 80%;
 }
 
 .flights-table-row {
   display: flex;
+  height: 100%;
   justify-content: space-between;
-  padding: 3%;
+  align-items: center;
+  color: #484c6a;
+  font-weight: 600;
+  font-family: sans-serif;
   border-bottom: 1.5px solid rgba(112, 103, 111, 0.24);
+}
+
+.col-price-label {
+  color: gray;
+  font-size: 11px;
+}
+
+.col-button {
+  color: gray;
+  font-weight: 500;
+}
+
+.col-button:hover {
+  background-color: #49bdf7;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
 }

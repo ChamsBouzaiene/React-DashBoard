@@ -7,14 +7,14 @@ export default function FlightTableRow() {
         <span>Munich</span>
       </div>
       <div className="col-price">
-        <span>From</span>
+        <span className="col-price-label">From </span>
         <span>860 USD</span>
       </div>
       <div className="col-date">
         <span>15 Aug - 22 Aug</span>
       </div>
       <div className="col-button">
-        <span>Book Now -></span>
+        <span>Book now →</span>
       </div>
     </div>
   );
