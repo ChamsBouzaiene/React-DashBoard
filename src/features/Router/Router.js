@@ -1,5 +1,5 @@
-import React from "react";
-
+import React, { useContext } from "react";
+import { RouterConsumer } from "./DashboardRouter";
 /*
  * This a dashboard router it gets the children nested in router
  * filter them based on their prop path
@@ -17,6 +17,8 @@ function filterCurrentView(children, path) {
   return Arraychildren.filter(child => child.props.to === path);
 }
 
-export default function Router({ children, path }) {
+export default function Router({ children }) {
+  const path = useContext(RouterConsumer);
+  console.log(path);
   return <>{filterCurrentView(children, path)}</>;
 }

@@ -17,9 +17,9 @@ const Second = () => {
   );
 };
 
-export default function MainBlock() {
+export default function MainBlock({ path }) {
   return (
-    <Router path="/main">
+    <Router path={path}>
       <Route to="/main" component={<Main />} />
       <Route to="/second" component={<Second />} />
     </Router>
