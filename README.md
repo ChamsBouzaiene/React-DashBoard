@@ -7,6 +7,10 @@ this is a react dashborad example built with no library other then react and no 
 - Build Hotels Page
 - Build Renting Page
 - Build Contact Page
+- Build Profile Page
+- Build Notifications Page
+- Build Messages Page
+- Write Some Tests
 - enhance the ui => Css => Design
 - Optimise the app (Speed , Memo , Keys , errors , logs , sepreate constants , clean up , comments)
 - Update the Readme to showcase what i did
