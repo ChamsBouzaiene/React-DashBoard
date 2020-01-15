@@ -27,14 +27,23 @@ export default function HotelCard() {
             </div>
           </div>
           <div className="hotel-card-info-discription">
-            <span>640 USD</span>
-            <span>Rating 4.5</span>
-            <span>Moscow</span>
+            <div className="description-right">
+              <span>. Only 2 of these prices left</span>
+              <span>. Reservation possible without a credit card</span>
+            </div>
+            <div className="description-left">
+              <span className="description-left-price">$ 640</span>
+              <span className="description-left-unit">Per night</span>
+            </div>
           </div>
 
           <div className="hotel-card-info-more">
-            <span>Breakfast included</span>
-            <span>See available rooms</span>
+            <span className="hotel-card-info-more-info ">
+              Breakfast included
+            </span>
+            <span className="hotel-card-info-more-btn">
+              See available rooms
+            </span>
           </div>
         </div>
       </div>
