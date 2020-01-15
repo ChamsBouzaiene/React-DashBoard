@@ -20,7 +20,6 @@
 }
 
 .hotels-table {
-  border: solid;
   width: 70%;
 
   display: flex;
@@ -29,7 +28,8 @@
 }
 
 .hotel-pagination-toolbar {
-  border: solid;
+  display: flex;
+  justify-content: space-between;
 }
 
 .hotels-card-list {
@@ -61,4 +61,25 @@
 
 .hotel-toolbar-filter-selected {
   font-weight: 600;
+}
+
+.pagination-element {
+  color: #266efe;
+}
+
+.arrow {
+  border: 1px solid rgba(158, 157, 157, 0.555);
+}
+
+.pages-counter {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  cursor: pointer;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.pagination-element:hover {
+  border: 0.4px solid rgba(158, 157, 157, 0.555);
+  color: gray;
 }
