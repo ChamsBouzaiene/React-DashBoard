@@ -28,10 +28,6 @@
   justify-content: space-around;
 }
 
-.hotel-toolbar {
-  border: solid;
-}
-
 .hotel-pagination-toolbar {
   border: solid;
 }
@@ -39,4 +35,30 @@
 .hotels-card-list {
   border: solid;
   height: 80%;
+}
+
+.hotel-toolbar {
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+
+.hotel-toolbar-title {
+}
+
+.hotel-toolbar-title-contry {
+  font-weight: 600;
+}
+
+.hotel-toolbar-title-population {
+}
+.hotel-toolbar-filter {
+}
+
+.hotel-toolbar-filter-by {
+  color: #afabab;
+}
+
+.hotel-toolbar-filter-selected {
+  font-weight: 600;
 }
