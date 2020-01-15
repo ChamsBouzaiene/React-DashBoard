@@ -4,11 +4,9 @@ this is a react dashborad example built with no library other then react and no 
 
 ## TODOs 🤯:
 
-- Build Diffrent Layout OverView and DataList mockups
-- Build OverView Component
-- Build DataList Component
-- Check for responsivnes another time
-- Check for responsivnes
+- Build Hotels Page
+- Build Renting Page
+- Build Contact Page
 - enhance the ui => Css => Design
 - Optimise the app (Speed , Memo , Keys , errors , logs , sepreate constants , clean up , comments)
 - Update the Readme to showcase what i did
@@ -20,12 +18,14 @@ this is a react dashborad example built with no library other then react and no 
 - Build Header Components
 - Build SideBar Components
 - Build Routing systems for Dashboard
+- Build Flights Page
+- Fix Cursors and some designee issues
 
 ## Features 💊:
 
 ### Dashboard Router :
 
-- Basicly the purpose of this dashboard is to build each compoent with out any library or framework beside react so for sure we need a router to navigate the dashboard pages so i implementded a dashboard router wich is inspired from react router dom api, this router dosen't use the window href link or window link to change location it dosn't entiract with any of that it uses an internal path to navigate pages and change component in the current view in the section i am gone present the router elements and how it does work it's highly reusable .
+- Basicly the purpose of this dashboard is to build each compoent without any library or framework beside react. so for sure we need a router to navigate the dashboard pages so i implementded a dashboard router wich is inspired from react router dom api, this router dosen't use the window href link or window link to change location it dosn't interact with any of that it uses an internal path to navigate pages and change component in the current view in the section i am gone present the router elements and how it does work it's highly reusable .
 
 #### DashBordRouter Component:
 
