@@ -65,8 +65,9 @@ export default function Hotelfilter() {
             <span>+5</span>
           </div>
         </div>
-
-        <span>Filter by:</span>
+        <div className="filter-btn">
+          <span className="filter-other-options">See more options ></span>
+        </div>
       </div>
     </div>
   );

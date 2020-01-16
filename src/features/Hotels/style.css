@@ -291,3 +291,10 @@
 .filter-score-added {
   color: rgb(11, 182, 11);
 }
+
+.filter-other-options {
+  border: 2px solid;
+  padding: 5%;
+  color: #266efe;
+  cursor: pointer;
+}
