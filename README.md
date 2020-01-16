@@ -4,16 +4,9 @@ this is a react dashborad example built with no library other then react and no 
 
 ## TODOs 🤯:
 
-- Build Hotels Page
-- Build Renting Page
-- Build Contact Page
-- Build Profile Page
-- Build Notifications Page
-- Build Messages Page
 - Write Some Tests
 - enhance the ui => Css => Design
-- Optimise the app (Speed , Memo , Keys , errors , logs , sepreate constants , clean up , comments)
-- Update the Readme to showcase what i did
+- Optimise the app (Speed , Memozation , Keys , errors , logs , sepreate constants , clean up , comments)
 
 ## Done 😊:
 
@@ -24,6 +17,9 @@ this is a react dashborad example built with no library other then react and no 
 - Build Routing systems for Dashboard
 - Build Flights Page
 - Fix Cursors and some designee issues
+- Build Hotels Page
+- Build SliderBullet component
+- Fix Css
 
 ## Features 💊:
 
@@ -55,3 +51,16 @@ Link Component is the component that redirects the page to another view if click
 ![alt text](https://i.imgur.com/Pnd3628.png)
 
 ---
+
+### Dashboard Flights Page :
+
+A page that present a list of flights in elegant minimalistic data table
+
+### Dashboard Hotels Page :
+
+A page that present a list of hotels and filters in a css intensive layout
+
+### SliderBullet component :
+
+a component that i built for the slidding effect of the filters and this component can be utilized
+to increase or decrease state variables to create a beautiful transition effects
