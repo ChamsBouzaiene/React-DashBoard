@@ -15,7 +15,6 @@
 }
 
 .hotels-cmd {
-  border: solid;
   width: 28%;
 }
 
@@ -208,9 +207,51 @@
 .hotel-card-info-more-btn {
   background-color: #266efe;
   padding: 0.4em;
+  cursor: pointer;
   color: white;
 }
 
 .hotel-card-info-more-info {
   color: rgb(11, 182, 11);
+}
+
+.hotel-filter-container {
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 2%;
+  font-family: sans-serif;
+}
+
+.filter-title {
+  text-align: left;
+  margin-left: 7%;
+  font-weight: 600;
+}
+
+.filters-container {
+  background-color: #eef0f5;
+  height: 90%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.wrapper {
+  width: 10px;
+  height: 10px;
+  border-radius: 29px;
+  box-shadow: 0 0 6px;
+  position: absolute;
+
+  background-color: #266efe;
+  cursor: pointer;
+}
+
+.slider-container {
+  width: 100%;
+  border: solid;
+  height: 20px;
+  position: relative;
 }
