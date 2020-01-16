@@ -13,7 +13,7 @@ export const SliderBall = () => {
   useEffect(() => {
     const width = ref.current ? ref.current.offsetWidth : 0;
     setWidth(width);
-  }, [ref.current]);
+  }, []);
 
   return (
     <div

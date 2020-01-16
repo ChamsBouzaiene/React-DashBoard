@@ -10,7 +10,7 @@ export default function Flights() {
       </div>
       <div className="flights-table">
         {fligtsData.map((flightData, i) => {
-          return <FlightTableRow {...flightData} />;
+          return <FlightTableRow {...flightData} key={i} />;
         })}
       </div>
     </div>

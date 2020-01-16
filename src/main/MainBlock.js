@@ -2,13 +2,6 @@ import React from "react";
 import { Router, Route } from "../features/Router";
 import Fligts from "../features/Flights";
 import Hotels from "../features/Hotels";
-const Main = () => {
-  return <div className="mainblock">i am a main layout</div>;
-};
-
-const Second = () => {
-  return <div className="mainblock">i am a second layout</div>;
-};
 
 export default function MainBlock() {
   return (
