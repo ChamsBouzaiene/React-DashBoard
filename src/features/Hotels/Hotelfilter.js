@@ -1,20 +1,18 @@
 import React, { useRef, useEffect, useState } from "react";
 
-export const Ball = () => {
+export const SliderBall = () => {
   let [offsetX, setoffsetX] = useState(0);
   let [width, setWidth] = useState(0);
   const ref = useRef(null);
 
   const calculateNewPos = (width, xpos, e) => {
     let rect = e.target.getBoundingClientRect();
-    var x = e.clientX - rect.left; //x position within the element.
-    console.log(width, xpos, x);
+    let x = e.clientX - rect.left;
     setoffsetX(x);
   };
   useEffect(() => {
     const width = ref.current ? ref.current.offsetWidth : 0;
     setWidth(width);
-    console.log("width", width);
   }, [ref.current]);
 
   return (
@@ -36,11 +34,38 @@ export default function Hotelfilter() {
         <span>Filter by:</span>
       </div>
       <div className="filters-container">
-        <Ball />
-        <span>Filter by:</span>
-        <span>Filter by:</span>
-        <span>Filter by:</span>
-        <span>Filter by:</span>
+        <div className="filter-budget filter-box">
+          <div className="filter-budget-title filter-title">
+            <span>Budget per night:</span>
+          </div>
+          <SliderBall />
+          <div className="filter-budget-prices filter-prices">
+            <span>$ 100</span>
+            <span>$ 750</span>
+          </div>
+        </div>
+        <div className="filter-score filter-box">
+          <div className="filter-score-title filter-title ">
+            <span>Review score:</span>
+            <span className="filter-score-added">+8</span>
+          </div>
+          <SliderBall />
+          <div className="filter-score-prices filter-prices">
+            <span>5.0</span>
+            <span>10</span>
+          </div>
+        </div>
+        <div className="filter-stars filter-box">
+          <div className="filter-stars-title filter-title">
+            <span>Star ratings:</span>
+          </div>
+          <SliderBall />
+          <div className="filter-stars-prices filter-prices">
+            <span>+1</span>
+            <span>+5</span>
+          </div>
+        </div>
+
         <span>Filter by:</span>
       </div>
     </div>

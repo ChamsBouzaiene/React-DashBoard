@@ -252,7 +252,7 @@
 .slider-container {
   width: 80%;
 
-  border-bottom: solid;
+  border-bottom: solid rgba(167, 166, 166, 0.61);
   height: 5%;
   position: relative;
 }
@@ -264,4 +264,30 @@
   position: absolute;
   bottom: -3px;
   height: 3px;
+}
+
+.filter-box {
+  display: flex;
+  height: 22%;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.filter-title {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.filter-prices {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 1em;
+  width: 80%;
+}
+
+.filter-score-added {
+  color: rgb(11, 182, 11);
 }
