@@ -24,6 +24,7 @@ export const Ball = () => {
       onClick={e => calculateNewPos(width, e.pageX, e)}
     >
       <div className="wrapper" style={{ left: offsetX }} />
+      <div className="progress-line" style={{ width: offsetX }} />
     </div>
   );
 };

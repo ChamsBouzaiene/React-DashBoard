@@ -239,19 +239,29 @@
 }
 
 .wrapper {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   border-radius: 29px;
   box-shadow: 0 0 6px;
   position: absolute;
-
+  bottom: -9px;
   background-color: #266efe;
   cursor: pointer;
 }
 
 .slider-container {
-  width: 100%;
-  border: solid;
-  height: 20px;
+  width: 80%;
+
+  border-bottom: solid;
+  height: 5%;
   position: relative;
+}
+
+.progress-line {
+  background-color: #266efe;
+  width: 97px;
+  background-color: #266efe;
+  position: absolute;
+  bottom: -3px;
+  height: 3px;
 }
