@@ -1,6 +1,6 @@
 # React Dashboard 🤓
 
-this is a react dashborad example built with no library other then react and no css framework i will try to make this dashboard extansible as possible and explain my desicions
+this is a react dashboard example built with no library other then react and no css framework i will try to make this dashboard extansible as possible and explain my desicions
 
 ## TODOs 🤯:
 
@@ -27,7 +27,7 @@ this is a react dashborad example built with no library other then react and no 
 
 - Basicly the purpose of this dashboard is to build each compoent without any library or framework beside react. so for sure we need a router to navigate the dashboard pages so i implementded a dashboard router wich is inspired from react router dom api, this router dosen't use the window href link or window link to change location it dosn't interact with any of that it uses an internal path to navigate pages and change component in the current view in the section i am gone present the router elements and how it does work it's highly reusable .
 
-#### DashBordRouter Component:
+#### DashBoardRouter Component:
 
 this component is the hoc or the parent component ,it uses the children api and context api and the useState Hook to inject the path state into the children components using the context API.
 
